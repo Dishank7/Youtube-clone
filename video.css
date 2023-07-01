@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+    margin: 0%;
+}
+
+.yt-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.left-nav{
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    gap: 40px;
+}
+.icon-lable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.center-nav{
+    align-items: center;
+    display: flex;
+
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+
+.video-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    background-color: rgba(151, 150, 150, 0.364);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.stats {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.like-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+.like {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+.comments-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.owner-details{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+}
+.profile > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#title {
+    margin: 20px;
+}
+
+.comment {
+    display: flex;
+    gap: 20px;
+    color: white ;
+    padding: 20px;
+}
+.comment > img, .comment-reply > img {
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+}
+.comment-right-half{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.comment span {
+    font-size: 14px !important;
+    color: gray
+}
+.comment p {
+    color: gray ;
+    width: 100%;
+}
+.options {
+    display: flex; gap: 20px;
+    cursor: pointer;
+}
+.reply{
+    background-color: transparent;
+    color: gray ;
+    border: none ;
+    cursor: pointer;
+}
+.reply:hover {
+    color: rgb(233, 223, 223) ;
+}
+.comment-reply{
+    padding-left: 10px;
+}
